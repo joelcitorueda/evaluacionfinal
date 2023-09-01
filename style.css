@@ -1,0 +1,122 @@
+.carousel-container {
+    width: 80%;
+    margin: 50px;
+}
+  
+  .carousel {
+    display: flex;
+    animation: carousel-slide 16s infinite;
+}
+  
+  @keyframes carousel-slide {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    20%, 60% {
+      transform: translateX(-100%);
+    }
+    40%, 80% {
+      transform: translateX(-200%);
+    }
+}
+  
+  .slide {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #177670;
+}
+  
+  .slide img {
+    max-width: 100%;
+    height: auto;
+}
+  
+  .slide-content {
+    margin-top: 10px;
+}
+  
+  .slide-content h2 {
+    margin: 0;
+}
+  
+  .slide-content a {
+    text-decoration: none;
+    color: #333;
+}
+    .col-5{
+    width: 1100px;
+}
+.img__logo{
+    width: 100px;
+    height: 100px;
+    margin-left: -800px;
+}
+.nav-redes {
+    background-color: #29a1a1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.nav-redes a {
+    color: #29a1a1;
+    text-decoration: none;
+    margin: 10px;
+}
+.header-redes {
+    background-color: #29a1a1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.img__inicio{
+    width: 250px;
+    height: 250px;
+}
+.menu__ganaderos{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    margin-top: 100px;
+    padding: 5px 6px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+.h2{
+    color: #177670;
+}
+.links{
+    color: black;
+}
+.fotoclud{
+    width: 900px;
+    height: 600px;
+    
+}
+header {
+    background-color: #177670;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Caprasimo', cursiva;
+}
+.menu {
+    background-color: #f8fafa;
+    color: rgb(247, 240, 240);
+    padding: 10px;
+    text-align: center;
+}
+.menu a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+}
